@@ -85,8 +85,26 @@ hr{
     padding: 0;
 }
 
+.icon-container{
+    margin-top: 20px;
+    display: grid;
+    align-items: center;
+   grid-template-columns: repeat(4,1fr);
+   column-gap: 0px;
+}
 
+.images{
+    position: relative;
+    width: 60px;
+    height: auto;
+    margin: 0;
+    border-radius: 26px;
+    float: right;
+}
 
+.image-label{
+    float: left;
+}
 
 
 .x2 {
